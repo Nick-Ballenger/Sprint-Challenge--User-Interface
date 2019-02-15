@@ -70,7 +70,22 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    display:flex;
+    height:60px;
+    justify-content: space-between;
+}
+nav a :first-child{
+    margin: 0;
+    margin-right: 30px;
 
+}
+nav a{
+    margin: 30px;
+    text-decoration: none;
+    color: black;
+
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
